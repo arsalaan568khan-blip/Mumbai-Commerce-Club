@@ -1,0 +1,290 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: url('mcc-logo.png') no-repeat center center fixed;
+  background-size: 200px;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.logo-banner {
+  background-color: #004d66;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.logo {
+  width: 80px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.tagline {
+  font-size: 1.2em;
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+.about, .cta {
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.about h2, .cta h2 {
+  color: #004d66;
+}
+
+.about ul {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+.about ul li {
+  margin-bottom: 8px;
+}
+
+.button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 24px;
+  background-color: #007399;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.button:hover {
+  background-color: #005f73;
+}
+
+footer {
+  background-color: #e0e0e0;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9em;
+}
+.join-links {
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.join-links h2 {
+  color: #004d66;
+  margin-top: 30px;
+}
+
+.join-links a {
+  color: #007399;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.join-links a:hover {
+  text-decoration: underline;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #004d66;
+  padding: 10px 20px;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.nav-logo {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  position: relative;
+}
+
+.nav-links a,
+.dropdown-trigger {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.nav-links a:hover,
+.dropdown-trigger:hover {
+  text-decoration: underline;
+}
+
+.dropdown-content {
+  position: absolute;
+  top: 35px;
+  left: 0;
+  background-color: #007399;
+  padding: 10px;
+  border-radius: 4px;
+  display: none;
+  z-index: 1000;
+  min-width: 120px;
+}
+
+.dropdown-content li {
+  margin: 5px 0;
+}
+
+.dropdown-content a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.dropdown-content a:hover {
+  text-decoration: underline;
+}
+
+.dropdown:hover .dropdown-content,
+.dropdown-content:hover {
+  display: block;
+}
+/* Remove background logo */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Internship banner */
+.internship-banner {
+  background-color: #2e7d32;
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.internship-banner h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.subtagline {
+  font-size: 1.4em;
+  font-weight: 500;
+}
+
+/* Internship content section */
+.internships {
+  padding: 60px 40px;
+  max-width: 1000px;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.95);
+}
+
+.internships h2 {
+  color: #004d66;
+  margin-top: 40px;
+  font-size: 1.8em;
+}
+
+.internships p {
+  font-size: 1.1em;
+  line-height: 1.8;
+}.linkedin-banner {
+  background-color: #0077b5;
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.linkedin-banner h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.subtagline {
+  font-size: 1.4em;
+  font-weight: 500;
+}
+
+.social-body {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.social-body h1 {
+  font-size: 2em;
+  color: #333;
+}
+.instagram-banner {
+  background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af);
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.instagram-banner h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.subtagline {
+  font-size: 1.4em;
+  font-weight: 500;
+}
+
+.social-body {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.social-body h1 {
+  font-size: 2em;
+  color: #333;
+}
+.facebook-banner {
+  background-color: #1877f2;
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.facebook-banner h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.subtagline {
+  font-size: 1.4em;
+  font-weight: 500;
+}
+
+.social-body {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.social-body h1 {
+  font-size: 2em;
+  color: #333;
+}
+
+
